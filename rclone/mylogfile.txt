@@ -1,0 +1,104 @@
+2021/11/26 10:29:15 DEBUG : rclone: Version "v1.57.0" starting with parameters ["rclone" "copy" "--config" "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpuarz6hgs" "sadedegel-aws:sadedegel-public-bucket" "sadedegel-minio:test/folder2" "--log-file=mylogfile.txt" "--rc-enable-metrics" "-vv" "--progress"]
+2021/11/26 10:29:15 DEBUG : Creating backend with remote "sadedegel-aws:sadedegel-public-bucket"
+2021/11/26 10:29:15 DEBUG : Using config file from "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpuarz6hgs"
+2021/11/26 10:29:15 DEBUG : Creating backend with remote "sadedegel-minio:test/folder2"
+2021/11/26 10:29:22 DEBUG : S3 bucket test path folder2: Waiting for checks to finish
+2021/11/26 10:29:22 DEBUG : erdal_bakkal.jpeg: Size and modification time the same (differ by 0s, within tolerance 1ns)
+2021/11/26 10:29:22 DEBUG : erdal_bakkal.jpeg: Unchanged skipping
+2021/11/26 10:29:22 DEBUG : S3 bucket test path folder2: Waiting for transfers to finish
+2021/11/26 10:29:22 INFO  : There was nothing to transfer
+2021/11/26 10:29:22 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         6.3s
+
+2021/11/26 10:29:22 DEBUG : 8 go routines active
+2021/11/26 10:37:19 DEBUG : rclone: Version "v1.57.0" starting with parameters ["rclone" "copy" "--config" "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmppnwes4gv" "sadedegel-aws:sadedegel-public-bucket" "sadedegel-minio:test/folder2" "--log-file=mylogfile.txt" "--rc-enable-metrics" "-vv" "--progress"]
+2021/11/26 10:37:19 DEBUG : Creating backend with remote "sadedegel-aws:sadedegel-public-bucket"
+2021/11/26 10:37:19 DEBUG : Using config file from "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmppnwes4gv"
+2021/11/26 10:37:19 DEBUG : Creating backend with remote "sadedegel-minio:test/folder2"
+2021/11/26 10:37:30 DEBUG : S3 bucket test path folder2: Waiting for checks to finish
+2021/11/26 10:37:30 DEBUG : erdal_bakkal.jpeg: Size and modification time the same (differ by 0s, within tolerance 1ns)
+2021/11/26 10:37:30 DEBUG : erdal_bakkal.jpeg: Unchanged skipping
+2021/11/26 10:37:30 DEBUG : S3 bucket test path folder2: Waiting for transfers to finish
+2021/11/26 10:37:30 INFO  : There was nothing to transfer
+2021/11/26 10:37:30 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:        11.4s
+
+2021/11/26 10:37:30 DEBUG : 8 go routines active
+2021/11/26 10:53:48 DEBUG : rclone: Version "v1.57.0" starting with parameters ["rclone" "copy" "--config" "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpkxogfrss" "sadedegel-aws:sadedegel-public-bucket" "sadedegel-minio:test/folder3" "--log-file=mylogfile.txt" "--rc-enable-metrics" "-vv" "--progress"]
+2021/11/26 10:53:48 DEBUG : Creating backend with remote "sadedegel-aws:sadedegel-public-bucket"
+2021/11/26 10:53:48 DEBUG : Using config file from "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpkxogfrss"
+2021/11/26 10:53:48 DEBUG : Creating backend with remote "sadedegel-minio:test/folder3"
+2021/11/26 10:53:56 DEBUG : S3 bucket test path folder3: Waiting for checks to finish
+2021/11/26 10:53:56 DEBUG : S3 bucket test path folder3: Waiting for transfers to finish
+2021/11/26 10:53:56 DEBUG : erdal_bakkal.jpeg: md5 = 2e73f915b34fbfbd2ac61ff3e8f498fa OK
+2021/11/26 10:53:56 INFO  : erdal_bakkal.jpeg: Copied (new)
+2021/11/26 10:53:56 INFO  : 
+Transferred:   	   19.345 KiB / 19.345 KiB, 100%, 0 B/s, ETA -
+Transferred:            1 / 1, 100%
+Elapsed time:         8.7s
+
+2021/11/26 10:53:56 DEBUG : 9 go routines active
+2021/11/26 10:55:34 DEBUG : rclone: Version "v1.57.0" starting with parameters ["rclone" "copy" "--config" "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmp9vnto8ah" "sadedegel-aws:sadedegel-bucket" "sadedegel-minio:test/folder4" "--log-file=mylogfile.txt" "--rc-enable-metrics" "-vv" "--progress"]
+2021/11/26 10:55:34 DEBUG : Creating backend with remote "sadedegel-aws:sadedegel-bucket"
+2021/11/26 10:55:34 DEBUG : Using config file from "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmp9vnto8ah"
+2021/11/26 10:55:34 DEBUG : Creating backend with remote "sadedegel-minio:test/folder4"
+2021/11/26 10:55:45 DEBUG : S3 bucket test path folder4: Waiting for checks to finish
+2021/11/26 10:55:45 DEBUG : S3 bucket test path folder4: Waiting for transfers to finish
+2021/11/26 10:55:45 DEBUG : 5978797ec03c0e3640780cd0.jpeg: md5 = 29ead922c8879727a5ae11017e9097cd OK
+2021/11/26 10:55:45 INFO  : 5978797ec03c0e3640780cd0.jpeg: Copied (new)
+2021/11/26 10:55:45 DEBUG : hepimizin-mecnun-cinar-olarak-tanidigi-ali-atay-kimdir.jpeg: md5 = 783695532df106f2e144d7d7f3bc54f3 OK
+2021/11/26 10:55:45 INFO  : hepimizin-mecnun-cinar-olarak-tanidigi-ali-atay-kimdir.jpeg: Copied (new)
+2021/11/26 10:55:46 DEBUG : hqdefault.jpeg: md5 = dcd43297414f37fdf859f9c26cb11f57 OK
+2021/11/26 10:55:46 INFO  : hqdefault.jpeg: Copied (new)
+2021/11/26 10:55:46 DEBUG : erdal_bakkal.jpeg: md5 = 2e73f915b34fbfbd2ac61ff3e8f498fa OK
+2021/11/26 10:55:46 INFO  : erdal_bakkal.jpeg: Copied (new)
+2021/11/26 10:55:46 DEBUG : images.jpeg: md5 = ec9623078383046f21b867979fe27813 OK
+2021/11/26 10:55:46 INFO  : images.jpeg: Copied (new)
+2021/11/26 10:55:46 DEBUG : ismail-abiden-leyla-ile-mecnun-mujdesi-8bc75f583aba6e674de2a129840568b5.jpeg: md5 = 45526c1fa11d90ad66c7732820041b98 OK
+2021/11/26 10:55:46 INFO  : ismail-abiden-leyla-ile-mecnun-mujdesi-8bc75f583aba6e674de2a129840568b5.jpeg: Copied (new)
+2021/11/26 10:55:46 INFO  : 
+Transferred:   	  146.808 KiB / 146.808 KiB, 100%, 104.372 KiB/s, ETA 0s
+Transferred:            6 / 6, 100%
+Elapsed time:        12.2s
+
+2021/11/26 10:55:46 DEBUG : 16 go routines active
+2021/11/26 11:28:01 DEBUG : rclone: Version "v1.57.0" starting with parameters ["rclone" "copy" "--config" "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpq4efqzns" "sadedegel-aws:sadedegel-minio-bucket/minio-test" "sadedegel-minio:test/folder5" "--log-file=mylogfile.txt" "--rc-enable-metrics" "-vv" "--progress"]
+2021/11/26 11:28:01 DEBUG : Creating backend with remote "sadedegel-aws:sadedegel-minio-bucket/minio-test"
+2021/11/26 11:28:01 DEBUG : Using config file from "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpq4efqzns"
+2021/11/26 11:28:05 DEBUG : Creating backend with remote "sadedegel-minio:test/folder5"
+2021/11/26 11:28:10 DEBUG : S3 bucket test path folder5: Waiting for checks to finish
+2021/11/26 11:28:10 DEBUG : S3 bucket test path folder5: Waiting for transfers to finish
+2021/11/26 11:28:10 INFO  : There was nothing to transfer
+2021/11/26 11:28:10 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         8.5s
+
+2021/11/26 11:28:10 DEBUG : 8 go routines active
+2021/11/26 17:22:58 DEBUG : rclone: Version "v1.57.0" starting with parameters ["rclone" "copy" "--config" "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpoc10_lpj" "sadedegel-aws:sadedegel-bucket" "sadedegel-minio:test/folder6" "--log-file=mylogfile.txt" "--rc-enable-metrics" "-vv" "--progress"]
+2021/11/26 17:22:58 DEBUG : Creating backend with remote "sadedegel-aws:sadedegel-bucket"
+2021/11/26 17:22:58 DEBUG : Using config file from "/var/folders/f5/g0b9h0w5559912c3thv47px80000gn/T/tmpoc10_lpj"
+2021/11/26 17:22:58 DEBUG : Creating backend with remote "sadedegel-minio:test/folder6"
+2021/11/26 17:23:06 DEBUG : S3 bucket test path folder6: Waiting for checks to finish
+2021/11/26 17:23:06 DEBUG : S3 bucket test path folder6: Waiting for transfers to finish
+2021/11/26 17:23:06 DEBUG : erdal_bakkal.jpeg: md5 = 2e73f915b34fbfbd2ac61ff3e8f498fa OK
+2021/11/26 17:23:06 INFO  : erdal_bakkal.jpeg: Copied (new)
+2021/11/26 17:23:07 DEBUG : 5978797ec03c0e3640780cd0.jpeg: md5 = 29ead922c8879727a5ae11017e9097cd OK
+2021/11/26 17:23:07 INFO  : 5978797ec03c0e3640780cd0.jpeg: Copied (new)
+2021/11/26 17:23:07 DEBUG : hepimizin-mecnun-cinar-olarak-tanidigi-ali-atay-kimdir.jpeg: md5 = 783695532df106f2e144d7d7f3bc54f3 OK
+2021/11/26 17:23:07 INFO  : hepimizin-mecnun-cinar-olarak-tanidigi-ali-atay-kimdir.jpeg: Copied (new)
+2021/11/26 17:23:07 DEBUG : hqdefault.jpeg: md5 = dcd43297414f37fdf859f9c26cb11f57 OK
+2021/11/26 17:23:07 INFO  : hqdefault.jpeg: Copied (new)
+2021/11/26 17:23:07 DEBUG : images.jpeg: md5 = ec9623078383046f21b867979fe27813 OK
+2021/11/26 17:23:07 INFO  : images.jpeg: Copied (new)
+2021/11/26 17:23:08 DEBUG : ismail-abiden-leyla-ile-mecnun-mujdesi-8bc75f583aba6e674de2a129840568b5.jpeg: md5 = 45526c1fa11d90ad66c7732820041b98 OK
+2021/11/26 17:23:08 INFO  : ismail-abiden-leyla-ile-mecnun-mujdesi-8bc75f583aba6e674de2a129840568b5.jpeg: Copied (new)
+2021/11/26 17:23:08 INFO  : 
+Transferred:   	  146.808 KiB / 146.808 KiB, 100%, 81.785 KiB/s, ETA 0s
+Transferred:            6 / 6, 100%
+Elapsed time:         9.9s
+
+2021/11/26 17:23:08 DEBUG : 16 go routines active
